@@ -1,0 +1,51 @@
+.btn-custom {
+    background-color: #d89f03;
+    border-color: #d89f03;
+}
+
+.btn-custom:hover {
+    background-color: #c88e03;
+    border-color: #c88e03;
+}
+
+.btn-custom:focus,
+.btn-custom:active {
+    background-color: #b07e03;
+    border-color: #b07e03;
+    box-shadow: none;
+}
+
+
+.filtro-container {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.filtro-container label {
+    margin-right: 10px;
+}
+
+.filtro-container input[type="number"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+.filtro-container button {
+    padding: 5px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.filtro-container button:hover {
+    background-color: #0056b3;
+}
+
+.table-container {
+    min-height: 500px;
+}
